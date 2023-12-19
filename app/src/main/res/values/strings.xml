@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fp2</string>
+    <string name="staff">Staff</string>
+    <string name="produk">Produk</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="nomor_hp">Nomor Hp</string>
+    <string name="alamat">Alamat</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="new_user_register">New User? Register</string>
+    <string name="already_a_member_login_here">Already a Member? Login Here</string>
+    <string name="admin">Admin</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+</resources>

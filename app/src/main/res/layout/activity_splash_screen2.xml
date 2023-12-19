@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="#96B6C5"
+    tools:context=".SplashScreen2">
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/bg_profile"
+        android:src="@drawable/profil" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_newuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_user_register"
+            android:fontFamily="@font/librebaskerville"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@color/Text"
+            android:onClick="onNewUserClick"
+            android:layout_gravity="center_horizontal" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_loginhere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button_background"
+            android:textColor="@color/Text"
+            android:layout_marginTop="20dp"
+            android:onClick="onAlreadyMemberClick"
+            android:text="@string/already_a_member_login_here"
+            android:fontFamily="@font/librebaskerville"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="0dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_admin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="10dp"
+                android:text="@string/admin"
+                android:onClick="onAdminLoginPage"
+                android:fontFamily="@font/librebaskerville"
+                android:background="@drawable/custom_button_background"
+                android:textColor="#333333"
+                android:textAllCaps="false" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_staff"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/custom_button_background"
+                android:textColor="#333333"
+                android:onClick="onStaffLoginPage"
+                android:text="@string/staff"
+                android:fontFamily="@font/librebaskerville"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

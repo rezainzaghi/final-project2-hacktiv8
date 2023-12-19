@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#96B6C5"
+    tools:context=".LoginUser">
+
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_profile"
+        android:src="@drawable/profil" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Login Staff"
+        android:fontFamily="@font/librebaskerville"
+        android:textSize="30sp"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="16dp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Email"
+        android:fontFamily="@font/librebaskerville"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:background="@drawable/shape"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="8dp"
+        android:hint="password"
+        android:fontFamily="@font/librebaskerville"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:background="@drawable/shape"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btnloginStaff"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="#807F7B"
+        android:backgroundTint="#F1F0E8"
+        android:text="Login"
+        android:textSize="18sp"
+        android:fontFamily="@font/librebaskerville"/>
+
+
+
+</LinearLayout>
